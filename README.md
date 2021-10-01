@@ -44,7 +44,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ### Installation Instructions
 First, clone the repo. 
 ```
-git clone git@github.com:athaight/note-taking-app.git
+git clone https://github.com/athaight/e-commerce-backend
 ```
 ###
 Once the you've cloned the repo and opened it in VS Code you'll want to right click the server.js file and open in integrated terminal. In the terminal enter the following:
@@ -54,12 +54,12 @@ Once the you've cloned the repo and opened it in VS Code you'll want to right cl
 npm i
 ```
 ###
-###Once npm has installed completely enter the following command into the terminal:
+Once npm has installed completely enter the following command into the terminal:
 ```
 node server.js
 ```
 ###
-###This should begin the application in the terminal and output the connection to localhost PORT:3023 
+This should begin the application in the terminal and output the connection to localhost PORT:3023 
 (default PORT selection in the application is set to PORT 3023) 
 ###
 If you have the program Insomnia then you can use it to listen to PORT 3023 and view the application, however, it may lack in functionality for testing. 
