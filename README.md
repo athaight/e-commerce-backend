@@ -49,7 +49,7 @@ git clone https://github.com/athaight/e-commerce-backend
 ###
 Once the you've cloned the repo and opened it in VS Code you'll want to right click the server.js file and open in integrated terminal. In the terminal enter the following:
 ###
-###To install npm and dependenices:
+To install npm and dependenices:
 ```
 npm i
 ```
