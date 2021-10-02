@@ -1,5 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
-
+const { Model, DataTypes } = require('sequelize/types');
 const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
@@ -13,8 +12,9 @@ Tag.init(
       allowNull: false
     },
     tag_name: {
-      types: DataTypes.STRING
-    }
+      types: DataTypes.STRING,
+      allowNull: false
+    },
   },
   {
     sequelize,

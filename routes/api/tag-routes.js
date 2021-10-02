@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     const productTagData = await Tag.findAll({
       include: [{model: Product }],
     });
-    res.status(200).json(pTagData);
+    res.status(200).json(productTagData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -40,7 +40,8 @@ router.post('/', (req, res) => {
     res.status(400).json(err);
   }
 });
-
+ 
+// TODO build this part
 router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
 });
