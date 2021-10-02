@@ -11,7 +11,16 @@
 
 ### Description
 This is a small back end for an e-commerce site. It is configured using the Express.js API and Sequelize to interact with a MySQL database.
-The database contains four models of: Category (id, category_name), Product (id, product_name, price, stock, category_id), Tag (id, tag_name), and Product Tag (id, product_id, tag_id).
+
+The database contains four models of: 
+
+```
+Category (id, category_name)
+Product (id, product_name, price, stock, category_id)
+Tag (id, tag_name)
+Product Tag (id, product_id, tag_id)
+```
+
 Utilizing an application such as <a href="https://insomnia.rest/products/insomnia" target="_blank">Insomnia Core</a>, once you've initaiated the application and seeded the database (see installation instructions below) you can connect to your database and test API POST, PUT, and DELETE routes and will be able to create, update, and delete data in your database. 
 
 ### This is a part of the homework curriculum for the University of Arizona / Trilogy Education Services Coding Bootcamp
